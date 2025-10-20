@@ -1,0 +1,33 @@
+body {
+  background-color: #f8c8c8; /* warna pink muda */
+}
+
+/* Tombol navigasi di atas card */
+.nav-btn-container {
+  position: relative;
+  top: 40px; /* atur jarak dari atas */
+  z-index: 2;
+}
+
+/* Tombol pink custom */
+.btn-pink {
+  background-color: #ff4f81;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn-pink:hover {
+  background-color: #ff2f6a;
+}
+
+/* Card putih di tengah */
+.card {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  margin-top: 60px; /* beri ruang agar tidak tertimpa tombol */
+}

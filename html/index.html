@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Garamond&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <div class="nav-btn-container text-center">
+        <a href="index.html" class="btn btn-primary">About</a>
+        <a href="experience.html" class="btn btn-primary">Experience</a>
+        <a href="contact.html" class="btn btn-primary">Contact</a>
+    </div>
+
+    <div class="cv-page">
+        <div class="profile-section d-flex align-items-center justify-content-between">
+            <div class="text-1">
+                <h1>Dea Amalia</h1>
+            </div>
+            <div class="profile-photo">
+                <img src="../img/profile.jpg" alt="Foto Profil Dea Amalia">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Tentang Saya</h5>
+                <p class="card-text">
+                    Nama saya Dea Amalia, siswi SMKN 6 Balikpapan dengan jurusan Rekayasa Perangkat Lunak (RPL).
+                    Saat ini, saya sedang menjalani magang di Kampus Institut Teknologi Kalimantan (ITK), di mana saya
+                    bekerja
+                    untuk mengembangkan kemampuan dalam bidang pengembangan web.
+                    Pada tahap awal, saya mempelajari konsep dasar Laravel dan berperan dalam membangun bagian backend
+                    website,
+                    seperti pengelolaan data dan koneksi ke database. Setelah menyelesaikan bagian backend,
+                    saya diarahkan untuk melanjutkan ke tahap pembuatan tampilan (frontend).
+                </p>
+            </div>
+        </div>
+
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Data Diri
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="data-diri">
+                            <div class="row">
+                                <div class="col-4 fw-bold">Nama</div>
+                                <div class="col">: Dea Amalia</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4 fw-bold">Tempat, Tanggal Lahir</div>
+                                <div class="col">: Balikpapan, 25 Juni 2025</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4 fw-bold">Alamat</div>
+                                <div class="col">: Balikpapan, Kalimantan Timur</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4 fw-bold">Jenis Kelamin</div>
+                                <div class="col">: Perempuan</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4 fw-bold">Agama</div>
+                                <div class="col">: Islam</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-tagline">"Building digital experiences with passion"</p>
+            <p class="footer-copyright">&copy; 2025 Dea Amalia. CV.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
