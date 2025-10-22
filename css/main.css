@@ -166,6 +166,14 @@ body {
     width: 100%;
   }
 
+  .card-text {
+    font-size: 13px;
+  }
+
+  .data-diri .row {
+    font-size: 12px;
+  }
+
   .footer {
     padding: 20px 15px;
   }
