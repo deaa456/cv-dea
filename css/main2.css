@@ -47,7 +47,6 @@ body {
   padding: 8px 16px;
   font-weight: 500;
   transition: 0.3s;
-  margin-left: -1px;
 }
 
 .btn-primary:hover {
